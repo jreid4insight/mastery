@@ -54,7 +54,7 @@
     zone_name: "{{ interface_item.zone_name }}"
     create_default_route: "{{ interface_item.create_default_route }}"
     management_profile: "{{ interface_item.management_profile | default(omit) }}"
-    enable_dhcp: "{{ enable_dhcp }}"
+#    enable_dhcp: "{{ enable_dhcp }}"
     vsys: vsys1
     commit: "{{ interface_item.commit }}"
   loop: "{{ interfaces }}"
