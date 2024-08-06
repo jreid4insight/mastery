@@ -31,6 +31,20 @@
     loop_var: mgmt_item
   tags: interfaces
 
+# Gather all DHCP configuration for an interface
+- paloaltonetworks.panos.panos_dhcp:
+    provider: '{{ provider }}'
+    interface: 'ethernet1/1'
+    state: 'gathered'
+  tags: interfaces
+
+# Delete any and all DHCP configuration
+- paloaltonetworks.panos.panos_dhcp:
+    provider: '{{ provider }}'
+    interface: 'ethernet1/1'
+    state: absent
+  tags: interfaces
+  
 - name: Enable DHCP interfaces
   paloaltonetworks.panos.panos_interface:
     provider: "{{ provider }}"
