@@ -50,7 +50,7 @@
     provider: "{{ provider }}"
     if_name: "{{ interface_item.if_name }}"
     ip: "{{ interface_item.ip_address }}"
-    netmask: "{{ interface_item.netmask }}"
+    #netmask: "{{ interface_item.netmask }}"
     zone_name: "{{ interface_item.zone_name }}"
     create_default_route: "{{ interface_item.create_default_route }}"
     management_profile: "{{ interface_item.management_profile | default(omit) }}"
