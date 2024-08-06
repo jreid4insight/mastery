@@ -32,3 +32,8 @@
     paloaltonetworks.panos.panos_commit_firewall:
       provider: '{{ provider }}'
     tags: commit
+
+  - name: Reset the target panos-firewall
+    include_role:
+      name: '../roles/reset'
+    tags: reset

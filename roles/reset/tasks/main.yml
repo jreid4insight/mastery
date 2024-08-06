@@ -1,0 +1,7 @@
+---
+- name: Reset configuration to factory defaults
+  paloaltonetworks.panos.panos_op:
+    provider: '{{ provider }}'
+    cmd: 'request system private-data-reset'
+  tags: reset
+...
