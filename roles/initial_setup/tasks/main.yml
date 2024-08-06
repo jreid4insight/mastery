@@ -48,6 +48,7 @@
 - name: Enable DHCP interfaces
   paloaltonetworks.panos.panos_interface:
     provider: "{{ provider }}"
+    enable_dhcp: "{{ enable_dhcp }}"
     if_name: "{{ interface_item.if_name }}"
     ip_address: "{{ interface_item.ip_address }}"
     netmask: "{{ interface_item.netmask }}"
