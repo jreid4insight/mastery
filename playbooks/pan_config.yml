@@ -37,3 +37,9 @@
     include_role:
       name: '../roles/reset'
     tags: reset
+
+  - name: Reset the target panos-firewall
+    include_role:
+      name: '../roles/reset2'
+    tags: reset2
+  

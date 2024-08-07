@@ -37,3 +37,7 @@ Must cover:
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository
 
   Service now (Self service info center ) EDA (Event Driven Ansible) plugin for Service Now.
+
+  Exorcises and workshops:
+  https://aap2.demoredhat.com/exercises/ansible_rhel/
+  
