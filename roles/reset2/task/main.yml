@@ -12,7 +12,7 @@
 
 - name: "Restore management IP configuration"
   paloaltonetworks.panos.panos_op:
-     provider: '{{ provider }}'
-     cmd: 'set deviceconfig system ip-address {{ management_ip_backup.stdout_lines[0].split()[2] }}'
+    provider: '{{ provider }}'
+    cmd: 'set deviceconfig system ip-address {{ management_ip_backup.stdout_lines[0].split()[2] }}'
   tags: reset2
 ...
