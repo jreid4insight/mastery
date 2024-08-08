@@ -32,12 +32,9 @@ Must cover:
   RBACK controls - removing the keys to the equipment form the engineers, approved changes only.
 - https://aap2.demoredhat.com/exercises/ansible_rhel/2.5-rbac/
 - https://docs.ansible.com/automation-controller/4.0.1/html/userguide/security.html#role-based-access-controls
+  Workflow approvals:
 
   Repository Single source of truth (GIT),
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository
 
   Service now (Self service info center ) EDA (Event Driven Ansible) plugin for Service Now.
-
-  Exorcises and workshops:
-  https://aap2.demoredhat.com/exercises/ansible_rhel/
-  
