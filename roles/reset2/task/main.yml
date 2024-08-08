@@ -8,7 +8,7 @@
 - name: Reset configuration to factory defaults
   paloaltonetworks.panos.panos_op:
     provider: '{{ provider }}'
-    cmd: 'request system private-data-reset'
+    cmd: 'request system private-data-reset exclude=management-ip'
 
 - name: "Restore management IP configuration"
   paloaltonetworks.panos.panos_op:
