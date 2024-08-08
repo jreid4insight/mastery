@@ -43,3 +43,7 @@
       name: '../roles/reset2'
     tags: reset2
   
+  - name: Revert to a Local Configureation Version
+    include_role:
+      name: '../roles/revert'
+    tags: revert

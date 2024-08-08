@@ -39,3 +39,8 @@ Must cover:
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository
 
   Service now (Self service info center ) EDA (Event Driven Ansible) plugin for Service Now.
+
+
+  Ansible Palo Documentation: 
+  https://galaxy.ansible.com/ui/repo/published/paloaltonetworks/panos/
+  

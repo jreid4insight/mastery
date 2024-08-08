@@ -1,0 +1,25 @@
+---
+- name: Load named configuration snapshot
+  paloaltonetworks.panos.panos_op:
+    provider: '{{ provider }}'
+    cmd: 'load config partial from version 2'
+  register: load_result
+  tags: revert
+
+- name: Show system information (Optional verification task)
+  paloaltonetworks.panos.panos_op:
+    provider: '{{ provider }}'
+    cmd: 'show system info'
+  register: result
+  tags: revert
+
+- name: Commit the configuration (optional)
+  paloaltonetworks.panos.panos_commit_firewall:
+    provider: '{{ panos_provider }}'
+  when: load_result is succeeded
+  tags: revert
+- name: Display load result
+  debug:
+    var: load_result.stdout
+  tags: revert
+...
