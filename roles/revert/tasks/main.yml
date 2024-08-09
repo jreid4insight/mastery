@@ -15,7 +15,7 @@
 
 - name: Commit the configuration (optional)
   paloaltonetworks.panos.panos_commit_firewall:
-    provider: '{{ panos_provider }}'
+    provider: '{{ provider }}'
   when: load_result is succeeded
   tags: revert
 
