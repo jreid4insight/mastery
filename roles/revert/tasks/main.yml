@@ -2,7 +2,7 @@
 - name: Load named configuration snapshot
   paloaltonetworks.panos.panos_op:
     provider: '{{ provider }}'
-    cmd: 'configure; load config version 1'
+    cmd: 'load config version 1'
   register: load_result
   tags: revert
 
