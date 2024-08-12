@@ -36,11 +36,24 @@ Must cover:
   Workflow approvals:
 
   Repository Single source of truth (GIT),
-https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/managing-pull-request-reviews-in-your-repository
 
   Service now (Self service info center ) EDA (Event Driven Ansible) plugin for Service Now.
 
 
   Ansible Palo Documentation: 
-  https://galaxy.ansible.com/ui/repo/published/paloaltonetworks/panos/
-  
+- https://galaxy.ansible.com/ui/repo/published/paloaltonetworks/panos/
+
+
+PowerPoint and notes: Cam Skidmore.
+
+https://docs.google.com/presentation/d/1dBy8kHN7VDCvvx_38YE8-oTsbfSOSV5BEQi1_iS9Y_s/edit#slide=id.g2ce97c645e8_0_4105
+
+James Reid
+Opening:
+Business use case:
+  We here customer complaints about not enough time 
+  Protect intilectual property:
+     Build Documentation via "Git Repo" as Operations are developed.
+     Cut down on loss of tribal knowledge due to turnover, New engineers effective faster.
+     Auditable: a single source of truth for tasks and operations. Documentation for Security audits.
